@@ -1,0 +1,302 @@
+@media only screen and (max-width: 600px) {}
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 1200px) {}                     
+                       
+.navbar{
+    background-color:#2948ff;   
+
+}
+.navbar a{
+
+color: rgb(214, 214, 214);
+} 
+.navbar a:hover{
+    color: white;
+}
+.navbar h3{
+    padding: 6px 0px 0px 30px;
+    color: white;
+}
+.nav-item:hover{
+background-color: rgba(255, 255, 255, 0.11);
+}
+.nav-item span{
+    padding-left: 5px;
+
+}
+
+.section-1 .contanier h2{
+    text-align: end;
+    margin: 19px 35px 0px 0px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+}
+.section-1 h6{
+    text-align: end;
+    margin: 5px 40px 0px 0px;
+}
+.section-1{
+    background-color: #f3eeee;
+    padding: 0px 0px 210px 0px;
+    position: relative;
+}
+.section-1 input{
+    text-align: center;
+    height: 46px;
+    border-radius: 3px;
+    width: 50%;
+    border: 1px solid #00000075;
+    margin: 0px -10px 0px 15px;
+}
+.plan-select{
+    width: 58%;
+    background-color: #ff7c00;
+    position: absolute;
+    display: flex;
+    padding: 6px 21px 6px 0px;
+    
+    right: 70px;
+    top: 76px;
+    border-radius: 0px 12px 11px 0px;
+}
+.section-1 button{
+    background-color: #2424ea;
+    color: white;
+    cursor: pointer;
+    width: 145px;
+    border-radius: 5px 0px 0px 5px;
+    position: absolute;
+    left: -145px;
+    height: 58px;
+    bottom: 0px;
+}
+#selected{
+    position: absolute;
+    top: 53px;
+    height: 39px;
+    right: 9px;
+    width: 32%;
+    padding-left: 79px;
+}
+
+.form-check-label{
+    position: absolute;
+    right: 128px;
+    font-size: 28px;
+    width: 100px;
+    bottom: 2px;
+
+}
+
+#exampleCheck1{
+    width: 16px;
+    height: 17px;
+}
+.form-group{
+    width: 129px;
+    position: absolute;
+    bottom: 71px;
+    right: 10px;
+}
+
+
+
+.section-2{
+    padding: 60px 0px 65px 0px;
+    position: relative;
+}
+
+.slide-show{
+    height: 400px;
+    display: none;
+    width: 100%;
+}
+.section-2 .button{
+    font-size: 40px;
+    color: #ff4343;
+    cursor: pointer;
+    position: relative;
+    bottom: 215px;
+}
+
+
+.room-1{
+    display: none;
+    width: 100%;
+    height: 400px;
+}
+                                /*section-3*/
+
+.section-3 .part-1{
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+.section-3 .part-1 img{
+    margin: 10px;
+    height: 300px;
+    width: 49%;
+}
+.section-3 .part-2 img{
+height: 300px;
+
+}
+
+
+
+/*section 4*/
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide h3{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+  
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+                                                        /*section-5*/
+                                                          /*Toggleable Tabs*/
+
+body {
+  font-family: Arial;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  display: flex;
+ justify-content: flex-end;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  color: #9e9a9a;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  display: block;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    COLOR: #5757bf;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #2e25ec;
+    color: #f5f5f5;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.ia_section.active {
+  display: block;
+}
+
+.ia_section {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-5 .footer-39201 ul{
+    text-align: end;
+}
+.section-5 .footer-39201 li{
+    padding: 0px 0px 10px 0px;
+}
+
+.section-5 .footer-39201 a{
+    text-decoration: none;
+    color: #3300ff;
+    font-size: 19px;
+    font-family: revert;
+    transition: 0.5s all ease;
+}
+.section-5 .footer-39201 a:hover{
+    color: #ff7c00;
+}
+.section-5 .fa-map-marker-alt{
+    color: brown;
+    font-size: 22px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+

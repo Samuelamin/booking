@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking.com</title>
+    
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    
+                                            <!--fontasowme links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+                                          <!--bootstarb links-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" 
+    integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" 
+    integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
+
+</head>
+<body>
+
+                                                                      <!--navbar-->
+<nav class="navbar navbar-expand-lg">
+<h3 class="navbar-brand" >Booking.Com</h3>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav">
+<li class="nav-item active">
+<a class="nav-link" href="#"> <i class="fas fa-bed"></i> <span> Stays </span> </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#"><i class="fas fa-plane-departure"></i> <span> Flights </span> </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#"><i class="fas fa-car-side"></i>  <span>Car rentals </span> </a>
+
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#"><i class="fas fa-gopuram"></i> <span>Attractions</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#"><i class="fas fa-taxi"></i>  <span>Airport taxis</span></a>
+</li>
+
+</ul>
+</div>
+</nav>
+                                                                      <!--section-1-->
+
+<section class="section-1">
+<div class="contanier">
+<h2>استكشف عروض الفنادق و البيوت وغيرها</h2>
+<h6>من البيوت الريفيه الدافئة الى شقق المدينه العصرية</h6>
+
+<div class="plan-select">
+<button>بحث</button>
+
+<input type="text" id="preson" value="" placeholder="عدد الاشخاص">
+<input type="text"  id="date" value="" placeholder="تسجيل الوصول">
+
+
+
+<input class="form-control" type="date" placeholder="Check In" type="date" required> 
+
+      
+        
+        </div>
+
+
+
+
+</div>
+<div class="form-group form-check">
+<input type="checkbox" class="form-check-input" id="exampleCheck1">
+<label class="form-check-label" for="exampleCheck1">رحلة عمل</label>
+</div>
+
+</section>
+                                                   
+                                             <!--section-3-->
+<section class="section-3" style="padding: 10px 0px 40px 0px;">
+<div class="container">
+<div class=" part-1 col-lg-12">
+<img class="col-lg-5" src="photos/5.jpg" alt="">
+<img class="col-lg-5" src="photos/6.jpg" alt="">
+</div>
+
+<div class=" part-2 col-lg-12">
+<img class="col-lg-4" src="photos/3.jpg" alt="">
+<img class="col-lg-4" src="photos/4.jpg" alt="">
+<img class="col-lg-4" src="photos/2.jpg" style="width: 32%;" alt="">
+</div>
+</div>
+</section>
+                                                                
+
+
+
+<section class="section-5">
+
+                                                                <!--button tab-->
+                                                                <!--button tab-->
+<div class="tab">
+<button class="tablinks" onclick="openCity(event, 'London')">مناطق</button>
+<button class="tablinks" onclick="openCity(event, 'Paris')">مدن </button>
+<button class="tablinks" id="defaultOpen" onclick="openCity(event, 'Tokyo')">معالم </button>
+</div>
+                                                                <!--معالم tab-->
+                                                                <!--معالم tab-->                                                                
+
+<div id="London" class="tabcontent">
+
+<footer class="footer-39201">
+<div class="container">
+    <div class="row">
+    <div class="col-md mb-4 mb-md-0">
+
+        <ul class="list-unstyled nav-links">
+        <li><a href="#">الفجيرة </a> <i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> المالديف</a> <i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">عجمان</a> <i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">جربه</a> <i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">بوكيت</a> <i class="fas fa-map-marker-alt"></i></li>
+
+        </ul>
+    </div>
+    <div class="col-md mb-4 mb-md-0">
+
+        <ul class="list-unstyled nav-links">
+        <li><a href="#">سانتوريني</a> <i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">بالي</a> <i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">منطقه القصيم </a> <i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">الساحل الشمالي</a> <i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">منطقه مكه المكرمه</a> <i class="fas fa-map-marker-alt"></i></li>
+        
+        </ul>
+    </div>
+    <div class="col-md mb-4 mb-md-0">
+
+        <ul class="list-unstyled nav-links">
+        <li><a href="#">مرسي علم </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">البحر الميت الاردن  </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">ميكونوس</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">منطقه تبوك</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">بورا بورا</a><i class="fas fa-map-marker-alt"></i></li>
+        </ul>
+    </div>
+
+    <div class="col-md mb-4 mb-md-0">
+
+        <ul class="list-unstyled nav-links">
+        <li><a href="#">ديزني لاند باريس</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">البحر الاحمر</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">الطائف </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">لنكاوي</a><i class="fas fa-map-marker-alt"></i></li>
+    
+
+        </ul>
+    </div>
+    
+
+
+
+</div>
+</footer>
+</div>
+
+<div id="Paris" class="tabcontent" >
+
+<footer class="footer-39201">
+<div class="container">
+    <div class="row">
+    <div class="col-md mb-4 mb-md-0">
+
+        <ul class="list-unstyled nav-links">
+        <li><a href="#">بانكوك </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> جيزان</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">الباحه </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">كوالالمبور</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">العقبه </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">الزلاق </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> الشارقه </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> ابوظبي </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> تونس</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> مرسي علم</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">الاسكندريه </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> الهدا</a><i class="fas fa-map-marker-alt"></i></li>
+       
+
+        </ul>
+    </div>
+    <div class="col-md mb-4 mb-md-0">
+
+        <ul class="list-unstyled nav-links">
+        <li><a href="#">بانايا سنترال </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">حائل </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">الدمام </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> بورتو</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> بيروت</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> ام القيوين</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> العقبه</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> طبريه</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> طابا</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> طابا</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> دهب</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> الغردقه </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> العين السخنه </a> <i class="fas fa-map-marker-alt"></i></li>
+  
+        </ul>
+    </div>
+    <div class="col-md mb-4 mb-md-0">
+
+        <ul class="list-unstyled nav-links">
+        <li><a href="#">أربيل </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> حفر الباطن</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> باكو </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> أمستردام </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> صحار</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> رأس الخيمه</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> الفجيره</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> إيلات</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> شرم الشيخ</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> شرم الشخيه </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> أسوان</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> طنجة</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">الجبيل </a><i class="fas fa-map-marker-alt"></i></li>
+
+        </ul>
+    </div>
+
+    <div class="col-md mb-4 mb-md-0">
+
+        <ul class="list-unstyled nav-links">
+        <li><a href="#">ينبع </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#">بريده </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> جاكرتا</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> باريس</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> صلاله</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> دبي</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> العين </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> طرابزون</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> راس البر</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> الاقصر</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> مراكش</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> الآحساء</a><i class="fas fa-map-marker-alt"></i></li>
+  
+
+        </ul>
+    </div>
+
+    <div class="col-md mb-4 mb-md-0">
+
+        <ul class="list-unstyled nav-links">
+        <li><a href="#">خميس مشيط </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> الطائف</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> لندن</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> عمان </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> مسقط</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> دبا </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> عجمان </a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> إسطنبول</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> مرسي مطروح</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> القاهره</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> ادار البيضاء</a><i class="fas fa-map-marker-alt"></i></li>
+        <li><a href="#"> بور سعيد</a><i class="fas fa-map-marker-alt"></i></li>
+
+    
+
+        </ul>
+    </div>
+    
+
+
+
+</div>
+</footer>
+</div>     
+<div id="Tokyo" class="tabcontent"> 
+
+
+<footer class="footer-39201">
+<div class="container">
+<div class="row">
+<div class="col-md mb-4 mb-md-0">
+
+<ul class="list-unstyled nav-links">
+<li><a href="#"> سان ستيفانو جراند بلازا</a><i class="fas fa-map-marker-alt"></i></li>
+<li><a href="#"> حميرا بيتش</a><i class="fas fa-map-marker-alt"></i></li>
+<li><a href="#"> شارع العرب</a><i class="fas fa-map-marker-alt"></i></li>
+<li><a href="#"> مجمع الراشد</a><i class="fas fa-map-marker-alt"></i></li>
+
+
+</ul>
+</div>
+<div class="col-md mb-4 mb-md-0">
+
+<ul class="list-unstyled nav-links">
+<li><a href="#"> ذا افينيوز مول</a><i class="fas fa-map-marker-alt"></i></li>
+<li><a href="#"> المسجد الحرام </a><i class="fas fa-map-marker-alt"></i></li>
+<li><a href="#"> كورنيش جده</a><i class="fas fa-map-marker-alt"></i></li>
+<li><a href="#"> دبي مول</a><i class="fas fa-map-marker-alt"></i></li>
+
+</ul>
+</div>
+<div class="col-md mb-4 mb-md-0">
+
+<ul class="list-unstyled nav-links">
+<li><a href="#">برج المملكه  </a><i class="fas fa-map-marker-alt"></i> </li>
+<li><a href="#"> برج خليفه</a> <i class="fas fa-map-marker-alt"></i></li>
+<li><a href="#"> مول سيتي ووك </a> <i class="fas fa-map-marker-alt"></i></li>
+<li><a href="#"> ابراج البيت </a><i class="fas fa-map-marker-alt"></i> </li>
+</ul>
+</div>
+
+<div class="col-md mb-4 mb-md-0">
+
+<ul class="list-unstyled nav-links">
+<li><a href="#"> مرزكز ابو ظبي الوطني للمعارض</a><i class="fas fa-map-marker-alt"></i></li>
+<li><a href="#"> نادي ديزرت بالم للبولو </a><i class="fas fa-map-marker-alt"></i> </li>
+<li><a href="#"> المسجد النبوي</a>  <i class="fas fa-map-marker-alt"></i> </li>
+<li><a href="#"> برج العرب</a>    <i class="fas fa-map-marker-alt"></i> </li>
+
+
+
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="js/index.js"></script>
+ 
+                                                    <!--fontasowme links-->
+                                                    <!--fontasowme links-->
+                                             
+<section>
+<script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" 
+integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+
+<script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/duotone.js" 
+integrity="sha384-PcDzzpTJzDDda2YUM4EY5ZqnZQ3DTIFtoaAn7t07N0UIY1HVyaxIHRzROmFBd48z" crossorigin="anonymous"></script>
+
+<script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/fontawesome.js" 
+integrity="sha384-8YSeMunSTZdDZy7rZxfG3NqC3KnYaCKxTJMm9yoILgIoMpXeTKDrV8TeV9C5ItEc" crossorigin="anonymous"></script>
+</section>
+                                                    <!--bootstarp links-->
+                                                    <!--bootstarp links-->
+                                              
+<section>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</section>
+
+
+  
+</body>
+</html>
